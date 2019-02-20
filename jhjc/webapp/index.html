@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>杰禾建材</title>
+    <link rel="icon" type="image/x-icon" href="./static/img/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="./static/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="./static/css/index.css">
+    <link rel="stylesheet" type="text/css" href="./static/css/theme-default/style.css">
+    <link rel="stylesheet" type="text/css" href="./static/css/theme-default/preview.css">
+    <link rel="stylesheet" type="text/css" href="./lib/jquery.fullpage.min.css">
+    <!-- <link rel="stylesheet" type="text/css" href="./lib/jquery-ui.min.css"> -->
+</head>
+<body>
+<ul class="g-menu">
+    <li data-menuanchor="index" class="active"><a href="#index"><span>首页</span></a></li>
+    <li data-menuanchor="example"><a href="#example"><span>成功案例</span></a></li>
+    <li data-menuanchor="page3"><a href="#page3"><span>page3</span></a></li>
+    <li data-menuanchor="support"><a href="#support"><span>关于我们</span></a></li>
+</ul>
+<div id="fullpage">
+    <div class="section">
+        <div class="index-left"></div>
+        <div class="index-right">
+            <h3>杰禾建材有限公司</h3>
+            <p class="index-msg"></p>
+        </div>
+    </div>
+    <div class="section">
+        <canvas id="canvas0" width="800" height="480"></canvas>
+        <canvas id="canvas1" width="800" height="480"></canvas>
+        <canvas id="canvas2" width="800" height="480"></canvas>
+        <canvas id="canvas3" width="800" height="480"></canvas>
+
+        <nav class="link-list">
+            <ul>
+                <li><a href="" data-order="0" data-imagesrc="./static/img/preview/preview1.jpg"></a></li>
+                <li><a href="" data-order="1" data-imagesrc="./static/img/preview/preview2.jpg"></a></li>
+                <li><a href="" data-order="2" data-imagesrc="./static/img/preview/preview3.jpg"></a></li>
+                <li><a href="" data-order="3" data-imagesrc="./static/img/preview/preview4.jpg"></a></li>
+                <li><a href="" data-order="4" data-imagesrc="./static/img/preview/preview5.jpg"></a></li>
+            </ul>
+        </nav>
+        <nav class="btns">
+            <button class="show-prev"><span>PREV</span></button>
+            <button class="show-next"><span>NEXT</span></button>
+        </nav>
+        <p class="loading-txt">Loading images...</p>
+    </div>
+    <div class="section citybg">   
+        <h1 style="font-size:50px;color: red;">这里不知道要写些什么东西</h1>
+    </div>
+    <div class="section">
+        <h1 class="f-tac f-mt20">我们的优势</h1>
+        <div class="g-advance">
+            <h1 style="font-size:50px;color: red;">这里先简单放个图片</h1>
+        </div>
+        <h1 class="f-tac">我们的服务</h1>
+        <div class="g-service">
+            <ul class="f-cb">
+                <li>
+                    <div class="unit">
+                        <span class="number">1</span>
+                        <span class="text">提供详细操作教程，包教包会</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="unit">
+                        <span class="number">2</span>
+                        <span class="text">包工包料全面服务，省心省力</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="unit">
+                        <span class="number">3</span>
+                        <span class="text">专业技术人员指导，效率更高</span>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <h1 class="f-tac">联系我们</h1>
+        <div class="g-contact g-row f-cb">
+            <div class="g-col g-col-3 ctn">
+                <div class="qrcode"></div>
+            </div>
+            <div class="g-col g-col-3 ctn">
+                <div class="info">
+                    <ul>
+                        <li>公司名称： 杰禾建材有限公司</li>
+                        <li>公司地址： 浙江省温州市xxxx</li>
+                        <li>公司网址： www.xxxx.com</li>
+                        <li>联系电话： 12345678</li>
+                        <li>邮件地址： 12412@123.com</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="g-col g-col-6 ctn">
+                <div class="location"></div>
+            </div>
+        </div>
+        <div class="g-footer">
+            <span>版权所有：杰禾建材有限公司</span>
+            <span>备IC沪XXXXXXXX号</span>
+            <span>技术支持： <a href="#">huanglingdong</a></span>
+            <span>Copyright © 2018 xxx. 保留所有权利。</span>
+        </div>
+    </div>
+</div>
+</body>
+<script src="./lib/jquery.min.js"></script>
+<!-- <script src="./lib/jquery-ui.min.js"></script> -->
+<script src="./lib/jquery.easing.min.js"></script>
+<!-- <script src="./lib/jquery.slimscroll.min.js"></script> -->
+<script src="./lib/scrolloverflow.min.js"></script>
+<script src="./lib/tweenMax.min.js"></script>
+<script src="./lib/jquery.fullpage.min.js"></script>
+
+<script src="./src/preview.js"></script>
+<script src="./src/main.js"></script>
+</html>
